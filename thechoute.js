@@ -1,7 +1,7 @@
-   // - - - - 𝕭𝖆𝖇𝖞𝕭𝖊𝖈𝖍𝖔𝖘𝖔 - - - -\\
+   // - - - - 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 - - - -\\
   // Si modificas recuerda dejar  \\
  //     Los Creditos               \\
-//////////// 𝕿𝖍𝖊 𝕮𝖍𝖔𝖚𝖙𝖊  \\\\\\\\\\\\\
+//////////// 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 \\\\\\\\\\\\\
 const { 
   WAConnection,
   MessageType,
@@ -22,7 +22,7 @@ const {
   processTime
   
   } = require ("@adiwajshing/baileys")
-// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝕿𝖍𝖊𝖈𝖍𝖔𝖚𝖙𝖊 | Modulos
+// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 | Modulos
 
 const fs = require('fs');
 const crypto = require("crypto-js");        
@@ -53,7 +53,7 @@ const { removeBackgroundFromImageFile } = require('remove.bg');
 const {convertSticker} = require("./lib/swm.js")
 //const {babyfire} = require('./lib/mediafire.js')
 
-// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝕿𝖍𝖊𝖈𝖍𝖔𝖚𝖙𝖊 | LIBRERIA
+// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 | LIBRERIA
 const conn = require("./lib/connect")
 const wa = require("./lib/wa")
 const msg = require("./lib/message")
@@ -81,7 +81,7 @@ const {R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R1
 const {grupos, admin, m18, multimedia, owener,extra, entrete, menual, menusticker} = require ('./lib/menus/menu');
 const {install, ts, agra } = require ('./lib/txt')
 
-// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝕿𝖍𝖊𝖈𝖍𝖔𝖚𝖙𝖊 | ALMACENAR DATOS
+// ☷☷ 𝕭𝖆𝖇𝖞 - - 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 | ALMACENAR DATOS
 const _registered = JSON.parse(fs.readFileSync('./src/registered.json'))
 const nuevo = JSON.parse(fs.readFileSync('./src/usuario.json'))
 const antipv = JSON.parse(fs.readFileSync('./src/antipv.json'));
@@ -129,12 +129,12 @@ const sleep = async (ms) => {
 const img = ['admin', 'ban', 'cowner', 'Faketumber', 'imagen', 'imgregla', 'M18', 'multimedia', 'TikTok', 'uwu']
 const imgramdon = img[Math.floor(Math.random() * img.length)]
 //CREADOR
-const yo = `𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊`
-const Githu = 'https://github.com/thechoute'
-const Youtube = 'https://www.youtube.com/c/thechout'
-const WhatsApp = '18299897014'
-const instagram = 'https://www.instagram.com/the_choute_/'
-const WGrupo = 'https://chat.whatsapp.com/H6n4BdMISuyC12zUEVL08n'
+const yo = `𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`
+const Githu = 'https://github.com/'
+const Youtube = 'https://www.youtube.com/'
+const WhatsApp = ''
+const instagram = 'https://www.instagram'
+const WGrupo = 'https://chat.whatsapp.com/'
 
 //══════════════════ FUNCION DE REGISTRO ════════════════════════════════════\\
 const getRegisteredRandomId = () => {
@@ -250,7 +250,7 @@ key : {
                     },
    message: {
                 liveLocationMessage: {
-                caption: `🔥🔥𝕿𝖍ٌ𝖊  𝕮𝖍𝖔𝖚𝖙𝖊🔥🔥`,
+                caption: `🔥🔥𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵🔥🔥`,
                 jpegThumbnail: fs.readFileSync('./media/imagen/youtube-mi.jpg'),
                       }
                     }
@@ -417,7 +417,7 @@ const command = comm
   const q = args.join(' ')
   const soyYo = leo.user.jid
   const botNumber = leo.user.jid.split("@")[0]
-  const ownerNumber  = "18299897014@s.whatsapp.net"
+  const ownerNumber  = "@s.whatsapp.net"
   const isGroup = from.endsWith('@g.us')
   const sender = choute.key.fromMe ? leo.user.jid : isGroup ? choute.participant : choute.key.remoteJid
   const senderNumber = sender.split("@")[0]
@@ -773,7 +773,7 @@ const chr = {
   "mimetype": "image/jpeg",
   "jpegThumbnail": fs.readFileSync(`./media/imagen/joy.jpg`)
   },
-  "title": `${yo} | 𝑩𝒂𝒃𝒚𝑩𝒆𝒄𝒉𝒐𝒔𝒐`,
+  "title": `${yo} | 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`,
   "description": "",
   "currencyCode": "L&J",
   "priceAmount1000": "9999999999999999",
@@ -796,7 +796,7 @@ const texto11 = `
 ╰━─━─☾︎🌊☽︎─━─━╯`
 const cmenu = `
 ╔╦══• •✠•❀•✠ • •══╦╗
-    🇯🇵💮 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 💮🇯🇵 
+    🇯🇵💮 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 💮🇯🇵 
 ╚╩══• •✠•❀•✠ • •══╩╝
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 Buenas tardes🌇 _@${sender.split('@')[0]}_
@@ -851,11 +851,11 @@ _Si el bot presenta algun fallo, notificarlo a @${ownerNumber.split('@')[0]}_
 
 const base = `INFO DE MI CREADOR
 *Youtube:*
-https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1
+https://www.youtube.com/channel/
 *Instagram:*
-https://www.instagram.com/the_choute_/
+https://www.instagram.com/
 *Github:*
-https://github.com/Thechoute`
+https://github.com/`
 
 const infobot =`||- *_-DATOS DEL BOT-_*
 [📱] Creador: @${ownerNumber.split('@')[0]}
@@ -885,7 +885,7 @@ _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas 
 ☎️ *Número* : @${ownerNumber.split("@")[0]}
 🌐 *Instagram* : ${instagram}
 🌐 *Github:* ${Githu}
-🌐 *Youtube:* youtube.com/c/thechout`
+🌐 *Youtube:* youtube.com`
 
 const registro = `
 *PORFAVOR ESCRIBE BIEN EL FORMATO DE REGISTRO:* 
@@ -908,7 +908,7 @@ const allmenu =
 `
 ╔─━━━░★░━━━━╗
         *MENU OFICIAL*
-        𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊
+        𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵
 ╚─━━━░★░━━━─╝
 ¤ = ~ ~ ◉ ~~ = ¤.•♫•♬•♬•♫•.
 ${timeFt} @${sender.split('@')[0]}
@@ -1357,7 +1357,7 @@ buttons1 = [{buttonId:`mamaguevo`,buttonText:{displayText: 'Siguiente 😋'},typ
 imageMsg = (await leo.prepareMessageMedia((imag), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
 buttonsMessage = {
 contentText: `${txtt}`,
-footerText: '© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+footerText: '© Creator 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵', imageMessage: imageMsg,
 buttons: buttons1,
 headerType: 4}
 prep = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute,  contextInfo: { mentionedJid: [sender,ownerNumber]} })
@@ -1399,7 +1399,7 @@ if (choute.message.buttonsResponseMessage){
     uptime = process.uptime()
     leo.sendMessage(from, `🔥 SIGUEME EN YOUTUBE🔥 \n${base}`, MessageType.text, {quoted: choute, caption: `${base}`, contextInfo: {"forwardingScore": 508, "isForwarded": true, "externalAdReply": 
     {"title": `Hola ${pushname} 👋🏻`, 
-    "body": `BabyBechoso`, "mediaType": 2, 
+    "body": `𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`, "mediaType": 2, 
     "thumbnail": fs.readFileSync(`media/imagen/fake.jpg`), 
     mediaUrl: "https://youtu.be/cxZ98u3Jqto"}}},
     {contextInfo: { mentionedJid: [sender,ownerNumber]}})  
@@ -1414,12 +1414,12 @@ if (choute.message.buttonsResponseMessage){
         if (!isRegister) return leoply(baby.only.usrReg)
         hentaiz = await axios.get('https://nekos.life/api/v2/img/hentai')
         bufhtz = await getBuffer(hentaiz.data.url)
-          txtt =`𝕭𝖆𝖇𝖞 𝕭𝖊𝖈𝖍𝖔𝖘𝖔 𝕺𝖋𝖈`
+          txtt =`𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`
           buttons1 = [{buttonId:`hetai`,buttonText:{displayText: 'Siguiente 😋'},type:1}]
           imageMsg = (await leo.prepareMessageMedia((bufhtz), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
           buttonsMessage = {
           contentText: `${txtt}`,
-          footerText: '𝕭𝖆𝖇𝖞 𝕭𝖊𝖈𝖍𝖔𝖘𝖔 𝕺𝖋𝖈\n© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+          footerText: '𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵', imageMessage: imageMsg,
           buttons: buttons1,
           headerType: 4}
           prep = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute,  contextInfo: { mentionedJid: [sender,ownerNumber]} })
@@ -1438,12 +1438,12 @@ if (!isRegister) return leoply(baby.only.usrReg)
   loli = await getBuffer(anu.data.url)
  /// leo.sendMessage(from, loliz, image, {quoted: choute})
   imag = loli            
-  txtt =`𝕭𝖆𝖇𝖞 𝕭𝖊𝖈𝖍𝖔𝖘𝖔 𝕺𝖋𝖈`
+  txtt =`𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`
   buttons1 = [{buttonId:`loli`,buttonText:{displayText: 'Siguiente 😋'},type:1}]
   imageMsg = (await leo.prepareMessageMedia((imag), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
   buttonsMessage = {
   contentText: `${txtt}`,
-  footerText: '*Aviso:* No pulses por pulsar\n© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+  footerText: '*Aviso:* No pulses por pulsar\n© Creator 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵', imageMessage: imageMsg,
   buttons: buttons1,
   headerType: 4}
   prep = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute,  contextInfo: { mentionedJid: [sender,ownerNumber]} })
@@ -1781,7 +1781,7 @@ const teks1 =
 var options = {
 text: teks1,
 contextInfo: {mentionedJid: [user]}}
-leo.sendMessage('18299897014@s.whatsapp.net', options, text, {quoted: choute})
+leo.sendMessage('@s.whatsapp.net', options, text, {quoted: choute})
 reply('El problema ha sido enviado a mi creador, de ser algun tipo de broma o solo lo haces por molestar o spam, seras baneado de manera definitiva.')
 break
 
@@ -1909,7 +1909,7 @@ teks =
                 {"title": 'Sigueme en Youtube',       
                 "body": 'Subcribete Te Podria Interesar',  
                 "thumbnail": its,
-                "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
+                "sourceUrl": 'https://www.youtube.com/channel/'}}})
                 break
 
 case 'level':
@@ -1935,7 +1935,7 @@ case 'wame':
                 {"title": 'Sigueme en Instagram',       
                 "body": 'Subcribete Te Podria Interesar',  
                 "thumbnail": its,
-                "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
+                "sourceUrl": 'https://www.youtube.com/channel/'}}})
                 break
 
 case 'catalogo':
@@ -1968,7 +1968,7 @@ case 'miwame':
           leo.sendMessage(from, 
 `Link de WhatsApp wa.me/${sender.split('@')[0]}`, text,  {quoted: choute, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
 {"title": `${pushname}`,       
-"body": '© 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊',  
+"body": '© 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵',  
 "thumbnail": its,
 "sourceUrl": `https://api.whatsapp.com/send/?phone=${sender.split('@')[0]}`}}})             
  break 
@@ -1979,7 +1979,7 @@ leo.sendMessage(from, `${install}`, MessageType.text, {quoted: choute,  contextI
     {"title": `Hola ${pushname} 👋🏻`, 
     "body": `MIRA EL VIDEO COMPLETO`, "mediaType": 2, 
     "thumbnail": fs.readFileSync(`media/imagen/youtube-min.jpg`), 
-    mediaUrl: "https://www.youtube.com/watch?v=Uv8U9VChJHo&t"}}})  
+    mediaUrl: "https://www.youtube.com/"}}})  
 
 //COMANDOS SOLO DISPONIBLES PARA EL DUEÑO DEL BOT
 
@@ -2738,7 +2738,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/bneon?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/', sendEphemeral: true})
   break
     
   /**/case 'matrix':
@@ -2747,7 +2747,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/matrix?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/', sendEphemeral: true})
   break		
 
     
@@ -2757,7 +2757,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/breakwall?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/', sendEphemeral: true})
   break		
     
   case 'dropwater':
@@ -2766,7 +2766,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/dropwater?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'lobo':
@@ -2776,7 +2776,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/wolflogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'flores':
@@ -2785,7 +2785,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/flowertext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'cross':
@@ -2794,7 +2794,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/crosslogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'seda':
@@ -2803,7 +2803,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/silktext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'fire':
@@ -2821,7 +2821,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/glowtext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'smoke':
@@ -2830,7 +2830,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/smoketext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'pubg':
@@ -2840,7 +2840,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/pubglogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'cielo':
@@ -2849,7 +2849,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/skytext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
   
   case 'cs':
@@ -2858,7 +2858,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/cslogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'ligth':
@@ -2867,7 +2867,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/lithgtext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'navidad':
@@ -2875,7 +2875,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/crismes?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'nieve':
@@ -2883,7 +2883,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/snowwrite?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'tfire':
@@ -2891,7 +2891,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/tfire?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'playa':
@@ -2899,7 +2899,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/sandw?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'ff':
@@ -2907,7 +2907,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/epep?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'goldbutton':
@@ -2915,7 +2915,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/gplaybutton?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break		
   
   case 'silverbutton':
@@ -2923,7 +2923,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/splaybutton?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case '3d':
@@ -2932,7 +2932,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/text3dbox?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break		
     
   case 'avengers':
@@ -2941,7 +2941,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/logoaveng?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case '3d2':
@@ -2949,7 +2949,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/text3d?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'ph':
@@ -2958,7 +2958,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/phlogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break		
     
   case 'blackpink':
@@ -2966,7 +2966,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/logobp?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'marvel':
@@ -2975,7 +2975,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/marvellogo?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/?sub_confirmation=1', sendEphemeral: true})
   break	
     
   case 'hojas':
@@ -2983,7 +2983,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/leavest?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'tligth':
@@ -2991,7 +2991,7 @@ case 'nuevo':
   if (!q) return reply('*Y el texto para crear el logo donde esta?*')
   reply(`Su logo de ${command} con el texto ${q}, sera creado a la brevedad`)		
   logo = `https://api.zeks.me/api/tlight?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text=${q}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
     
   case 'gtext':
@@ -3000,7 +3000,7 @@ case 'nuevo':
   if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
   reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
   logo = `https://api.zeks.me/api/gtext?apikey=FRPuR2WbwVlAI7rKYh16ypU9oxs&text1=${texto1}&text2=${texto2}`
-  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1', sendEphemeral: true})
+  sendFileFromUrl(logo, image, {quoted: choute, caption: '*🔥 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥*\n*CANAL DEL CREADOR:*\nhttps://www.youtube.com/channel/sub_confirmation=1', sendEphemeral: true})
   break
   
     
@@ -3334,7 +3334,7 @@ case 'porno':
               else {
               var gugIm = result
               var random =  gugIm[Math.floor(Math.random() * gugIm.length)].url
-              sendFileFromUrl(random, image, {quoted: choute, caption: `Te gusta? Si no pide mas\n\n🔥🔥 𝕭𝖔𝖙 𝕭𝖆𝖇𝖞 🔥🔥`})
+              sendFileFromUrl(random, image, {quoted: choute, caption: `Te gusta? Si no pide mas\n\n🔥🔥 𝕭𝖔𝖙 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 🔥🔥`})
               }
               }
               addFilter(from)
@@ -3469,7 +3469,7 @@ case 'cosplay':
                 imageMsg = (await leo.prepareMessageMedia((imag), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
                 buttonsMessage = {
                 contentText: `${txtt}`,
-                footerText: '© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+                footerText: '© Creator 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵', imageMessage: imageMsg,
                 buttons: buttons1,
                 headerType: 4}
                 prep = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute,  contextInfo: { mentionedJid: [sender,ownerNumber]} })
@@ -3500,7 +3500,7 @@ case 'etai':
                 hentaiz = await axios.get('https://nekos.life/api/v2/img/hentai')
                 bufhtz = await getBuffer(hentaiz.data.url)
               //  leo.sendMessage(from, bufhtz, image, {quoted: choute})
-                  txtt =`𝕭𝖆𝖇𝖞 𝕭𝖊𝖈𝖍𝖔𝖘𝖔 𝕺𝖋𝖈`
+                  txtt =`𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵`
                   buttons1 = [{buttonId:`hetai`,buttonText:{displayText: 'Siguiente 😋'},type:1}]
                   imageMsg = (await leo.prepareMessageMedia((bufhtz), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
                   buttonsMessage = {
@@ -3966,7 +3966,7 @@ case 'xd':
             teks += `╠ @${mem.jid.split('@')[0]}\n`
             members_id.push(mem.jid)
             }
-            mentions('*𝐌𝐈𝐄𝐌𝐁𝐑𝐎𝐒  𝐃𝐄𝐋  𝐆𝐑𝐔𝐏𝐎*\n╔════ 𝕭𝖆𝖇𝖞𝕭𝖊𝖈𝖍𝖔𝖘𝖔\n╠ ● '+teks+'╠═══════ *𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊* ═════\n╚══════', members_id, true)
+            mentions('*𝐌𝐈𝐄𝐌𝐁𝐑𝐎𝐒  𝐃𝐄𝐋  𝐆𝐑𝐔𝐏𝐎*\n╔════ 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵\n╠ ● '+teks+'╠═══════ *𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵* ═════\n╚══════', members_id, true)
             addFilter(from)
             break
 
